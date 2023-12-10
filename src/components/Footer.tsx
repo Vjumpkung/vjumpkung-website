@@ -5,9 +5,6 @@ export default function Footer() {
         <p className="text-center font-bold text-white">
           Made with ❤️ by vjumpkung
         </p>
-        <p className="text-center font-bold text-gray-600">
-          I could reach the sky even though no one expected it of me.
-        </p>
       </div>
     </footer>
   );

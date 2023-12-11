@@ -2,6 +2,18 @@ import type { NextPageWithLayout } from "./_app";
 
 const project_list = [
   {
+    title: "bitly clone frontend",
+    description: "Frontend for bitly clone project.",
+    date: "December 2023",
+    repo: "https://github.com/vjumpkung/bitly-clone-frontend",
+  },
+  {
+    title: "bitly clone backend",
+    description: "API for bitly clone frontend.",
+    date: "December 2023",
+    repo: "https://github.com/Vjumpkung/bitly-clone-backend",
+  },
+  {
     title: "GenEdCreditCountBackend",
     description:
       "A project that addresses my pain point involves manually counting General Education (GenEd) subjects and categorizing them by type.",
@@ -67,7 +79,7 @@ const activity_list = [
 const Projects: NextPageWithLayout = () => {
   return (
     <div className="container max-w-xl mx-auto px-4">
-      <h1 className="text-center pt-4 mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+      <h1 className="text-center pt-4 mb-4 text-4xl font-bold leading-none tracking-tight md:text-5xl lg:text-6xl text-white">
         Projects
       </h1>
 
@@ -80,7 +92,7 @@ const Projects: NextPageWithLayout = () => {
             <div className="w-full px-1 my-1 sm:w-full sm:px-1 sm:my-1 md:w-full md:px-1 md:my-1 lg:w-full lg:px-1 lg:my-1 xl:w-full xl:px-1 xl:my-1">
               <div className="bg-gray-800 overflow-hidden shadow rounded-lg">
                 <div className="px-4 py-5 sm:p-6">
-                  <h3 className="text-lg leading-6 font-medium text-gray-900 dark:text-white">
+                  <h3 className="text-lg leading-6 font-medium text-white">
                     {project.title}
                   </h3>
                   <p className="mt-2 max-w-4xl text-sm text-gray-300">
@@ -92,7 +104,7 @@ const Projects: NextPageWithLayout = () => {
                   <div className="mt-5">
                     <a
                       href={project.repo}
-                      className="text-sm font-medium text-blue-700 hover:text-blue-600 dark:hover:text-blue-400"
+                      className="text-sm font-medium text-blue-700 hover:text-blue-400"
                     >
                       View Project
                     </a>
@@ -104,7 +116,7 @@ const Projects: NextPageWithLayout = () => {
         );
       })}
 
-      <h1 className="text-center pt-4 mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+      <h1 className="text-center pt-4 mb-4 text-4xl font-bold leading-none tracking-tight md:text-5xl lg:text-6xl text-white">
         Activities
       </h1>
 
@@ -117,7 +129,7 @@ const Projects: NextPageWithLayout = () => {
             <div className="w-full px-1 my-1 sm:w-full sm:px-1 sm:my-1 md:w-full md:px-1 md:my-1 lg:w-full lg:px-1 lg:my-1 xl:w-full xl:px-1 xl:my-1">
               <div className="bg-gray-800 overflow-hidden shadow rounded-lg">
                 <div className="px-4 py-5 sm:p-6">
-                  <h3 className="text-lg leading-6 font-medium text-gray-900 dark:text-white">
+                  <h3 className="text-lg leading-6 font-medium text-white">
                     {activity.title}
                   </h3>
                   <p className="mt-2 max-w-4xl text-sm text-gray-300">

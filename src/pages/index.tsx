@@ -23,7 +23,7 @@ const backend_framework_list = ["NestJS", "FastAPI"];
 const Page = () => {
   return (
     <div className="container mx-auto px-4">
-      <h1 className="text-center pt-4 mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+      <h1 className="text-center pt-4 mb-4 text-4xl font-bold leading-none tracking-tightmd:text-5xl lg:text-6xl text-white">
         Chanrich Pisitjing
       </h1>
       <div className="py-3">

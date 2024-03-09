@@ -7,6 +7,21 @@ import { SocialIcon } from "react-social-icons";
 
 export const projects = [
   {
+    title: "URL shortener",
+    link: "https://vjump-short-url.vercel.app/",
+    thumbnail: "/shrt.png",
+  },
+  {
+    title: "Simple Calculator",
+    link: "https://vjump-calculator.vercel.app/",
+    thumbnail: "/calculator.png",
+  },
+  {
+    title: "Pokedex Simple Search",
+    link: "https://vjumpkung-simple-pokedex-search.netlify.app/",
+    thumbnail: "/pokedex.png",
+  },
+  {
     title: "Hero Cartoon Tshirt Website",
     link: "https://www.herocartoontshirt.com/",
     thumbnail: "/hero.png",
@@ -52,6 +67,69 @@ export const projects = [
   },
 ];
 
+export const skills = [
+  {
+    alt: "React.js logo",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+  },
+  {
+    alt: "Next.js logo",
+    img: "/nextjs-icon.svg",
+  },
+  {
+    alt: "Node.js logo",
+    img: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
+  },
+  {
+    alt: "JavaScript logo",
+    img: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+  },
+  {
+    alt: "TypeScript logo",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
+  },
+  {
+    alt: "Tailwind CSS logo",
+    img: "https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png",
+  },
+  {
+    alt: "express",
+    img: "https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png",
+  },
+  {
+    alt: "PostgreSQL logo",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png",
+  },
+  {
+    alt: "MongoDB logo",
+    img: "https://www.svgrepo.com/show/331488/mongodb.svg",
+  },
+  {
+    alt: "C logo",
+    img: "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png",
+  },
+  {
+    alt: "C++ logo",
+    img: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
+  },
+  {
+    alt: "Python logo",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
+  },
+  {
+    alt: "Prettier",
+    img: "https://iconape.com/wp-content/files/zr/349997/svg/prettier-seeklogo.com.svg",
+  },
+  {
+    alt: "git logo",
+    img: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+  },
+  {
+    alt: "github logo",
+    img: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+  },
+];
+
 const Page = () => {
   return (
     <TracingBeam>
@@ -80,128 +158,21 @@ const Page = () => {
           </h1>
         </div>
         <div className="flex flex-wrap items-center justify-center h-80 w-full px-4 gap-x-4">
-          <div className="">
-            <Image
-              alt="React.js logo"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
-              width={60}
-              height={60}
-            />
-          </div>
-          <div>
-            <Image
-              alt="Next.js logo"
-              src="https://www.svgrepo.com/show/354113/nextjs-icon.svg"
-              className="invert"
-              width={60}
-              height={60}
-            />
-          </div>
-          <div>
-            <Image
-              alt="Node.js logo"
-              src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
-              width={60}
-              height={60}
-            />
-          </div>
-          <div>
-            <Image
-              alt="JavaScript logo"
-              src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-              width={60}
-              height={60}
-            />
-          </div>
-          <div>
-            <Image
-              alt="TypeScript logo"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"
-              width={60}
-              height={60}
-            />
-          </div>
-          <div>
-            <Image
-              alt="Tailwind CSS logo"
-              src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png"
-              width={60}
-              height={60}
-            />
-          </div>
-          <div>
-            <Image
-              alt="express"
-              src="https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png"
-              width={60}
-              height={60}
-            />
-          </div>
-          <div>
-            <Image
-              alt="PostgreSQL logo"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png"
-              width={60}
-              height={60}
-            />
-          </div>
-          <div>
-            <Image
-              alt="MongoDB logo"
-              src="https://www.svgrepo.com/show/331488/mongodb.svg"
-              width={60}
-              height={60}
-            />
-          </div>
-          <div>
-            <Image
-              alt="C logo"
-              src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png"
-              width={60}
-              height={60}
-            />
-          </div>
-          <div>
-            <Image
-              alt="C++ logo"
-              src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
-              width={60}
-              height={60}
-            />
-          </div>
-          <div>
-            <Image
-              alt="Python logo"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
-              width={60}
-              height={60}
-            />
-          </div>
-          <div>
-            <Image
-              alt="Prettier"
-              src="https://iconape.com/wp-content/files/zr/349997/svg/prettier-seeklogo.com.svg"
-              width={60}
-              height={60}
-            />
-          </div>
-          <div>
-            <Image
-              alt="github logo"
-              src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
-              width={60}
-              height={60}
-            />
-          </div>
-          <div>
-            <Image
-              alt="github logo"
-              className="invert"
-              src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-              width={60}
-              height={60}
-            />
-          </div>
+          {skills.map((skill, index) => (
+            <div
+              key={index}
+              className="flex items-center justify-center h-20 w-20"
+            >
+              <Image
+                src={skill.img}
+                alt={skill.alt}
+                width={60}
+                height={60}
+                loading="lazy"
+                className="object-contain"
+              />
+            </div>
+          ))}
         </div>
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-7xl font-bold text-white text-left">

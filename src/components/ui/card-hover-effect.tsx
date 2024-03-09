@@ -59,6 +59,7 @@ export const HoverEffect = ({
                 className="rounded-2xl w-full h-full object-center object-cover aspect-video"
                 width={1920}
                 height={1080}
+                loading="lazy"
               />
             </CardDescription>
             <CardTitle>{item.title}</CardTitle>

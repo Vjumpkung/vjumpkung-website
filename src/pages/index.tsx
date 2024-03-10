@@ -43,13 +43,12 @@ export const projects = [
       "https://github.com/Vjumpkung/bitly-clone-frontend/raw/master/public/image.png",
   },
   {
-    title: "Meeorder",
-    link: "https://github.com/meeorder/meeorder-frontend",
-    thumbnail:
-      "https://github.com/meeorder/meeorder-frontend/assets/90249534/b49b2f46-f952-4e95-9f91-08e7559621d9",
+    title: "Meeorder (Group Term Project)",
+    link: "https://meeorder-frontend.vjumpkung.dynv6.net/",
+    thumbnail: "/meeorder.gif",
   },
   {
-    title: "Airquality Report",
+    title: "Air Quality Report",
     link: "https://github.com/Vjumpkung/air-quality-report-backend",
     thumbnail: "/airq.png",
   },

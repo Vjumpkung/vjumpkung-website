@@ -159,10 +159,7 @@ const Page = () => {
         </div>
         <div className="flex flex-wrap items-center justify-center h-80 w-full px-4 gap-x-4">
           {skills.map((skill, index) => (
-            <div
-              key={index}
-              className="flex items-center justify-center h-20 w-20"
-            >
+            <div key={index}>
               <Image
                 src={skill.img}
                 alt={skill.alt}

@@ -7,6 +7,11 @@ import { SocialIcon } from "react-social-icons";
 
 export const projects = [
   {
+    title: "Air Quality Report Frontend Remake",
+    link: "https://air-quality-report-frontend-remake.netlify.app/",
+    thumbnail: "/airq.png",
+  },
+  {
     title: "URL shortener",
     link: "https://vjump-short-url.vercel.app/",
     thumbnail: "/shrt.png",
@@ -50,7 +55,7 @@ export const projects = [
   {
     title: "Air Quality Report",
     link: "https://github.com/Vjumpkung/air-quality-report-backend",
-    thumbnail: "/airq.png",
+    thumbnail: "/airq-backend.png",
   },
   {
     title: "Decryptor Game",

@@ -7,6 +7,11 @@ import { SocialIcon } from "react-social-icons";
 
 export const projects = [
   {
+    title: "Tshirt Latphrao 130",
+    link: "https://www.tshirt130.com/",
+    thumbnail: "/tshirt130.png",
+  },
+  {
     title: "Air Quality Report Frontend Remake",
     link: "https://air-quality-report-frontend-remake.netlify.app/",
     thumbnail: "/airq.png",
@@ -130,7 +135,7 @@ export const skills = [
   },
   {
     alt: "github logo",
-    img: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+    img: "/github-mark-white.svg",
   },
 ];
 
@@ -141,11 +146,9 @@ const Page = () => {
         <title>vjumpkung portfolio website</title>
       </Head>
       <main className="bg-black bg-dot-white/[0.2]">
-        <div className="w-full absolute inset-0 h-screen"></div>
-        <div className="h-screen py-40 overflow-hidden antialiased relative flex flex-col self-auto">
+        <div className="h-screen overflow-hidden antialiased relative flex flex-col justify-center">
           <Header />
         </div>
-
         <div className="h-full py-20 antialiased relative flex flex-col self-auto px-4">
           <div className="container mx-auto">
             <h1 className="text-4xl md:text-7xl font-bold text-white text-left">
@@ -182,9 +185,21 @@ const Page = () => {
         </div>
         <div className="container w-screen mx-auto">
           <div className="flex items-center justify-center h-60 w-full gap-4">
-            <SocialIcon url="https://github.com/Vjumpkung" />
-            <SocialIcon url="https://www.linkedin.com/in/chanrichpisitjing/" />
-            <SocialIcon url="https://www.facebook.com/chanrich.pisitjing/" />
+            <SocialIcon
+              url="https://github.com/Vjumpkung"
+              target="_blank"
+              rel="noopener noreferrer"
+            />
+            <SocialIcon
+              url="https://www.linkedin.com/in/chanrichpisitjing/"
+              target="_blank"
+              rel="noopener noreferrer"
+            />
+            <SocialIcon
+              url="https://www.facebook.com/chanrich.pisitjing/"
+              target="_blank"
+              rel="noopener noreferrer"
+            />
           </div>
         </div>
       </main>

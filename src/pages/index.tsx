@@ -7,6 +7,12 @@ import { SocialIcon } from "react-social-icons";
 
 export const projects = [
   {
+    title: "Simple Image Manager",
+    link: "https://github.com/vjumpkung/simple_image_manager_api",
+    thumbnail:
+      "https://github.com/vjumpkung/simple_image_manager_api/raw/master/images/upload_img.png",
+  },
+  {
     title: "Tshirt Latphrao 130",
     link: "https://www.tshirt130.com/",
     thumbnail: "/tshirt130.png",

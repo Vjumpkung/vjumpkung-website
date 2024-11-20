@@ -7,6 +7,11 @@ import { SocialIcon } from "react-social-icons";
 
 export const projects = [
   {
+    title: "SWU Loykrathong Online",
+    link: "https://swu-loykrathong.online/",
+    thumbnail: "/1731737753294.jpg",
+  },
+  {
     title: "Simple Image Manager",
     link: "https://github.com/vjumpkung/simple_image_manager_api",
     thumbnail:
